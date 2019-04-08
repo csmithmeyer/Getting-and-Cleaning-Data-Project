@@ -1,6 +1,6 @@
 ## ID Variables
-* ID: Subjects ID number
-* Activity: Activity Type
+* 'ID': Subjects ID number
+* 'Activity': Activity Type
 
 ## Variables
 * "tBodyAcc-std()-X"
