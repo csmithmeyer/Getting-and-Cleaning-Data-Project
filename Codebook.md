@@ -1,6 +1,17 @@
+##Codebook for the Getting and Cleaning Data Project
+This code book describes the variables used in the 'tidydata.txt' file.
+
 ## ID Variables
-* 'ID': Subjects ID number
-* 'Activity': Activity Type
+* ID: Subjects ID number
+* Activity': Activity Type
+
+##Activity Variable
+* "WALKING"
+* "WALKING_UPSTAIRS"
+* "WALKING_DOWNSTAIRS"
+* "SITTING"
+* "STANDING"
+* "LAYING"
 
 ## Variables
 * "tBodyAcc-std()-X"
