@@ -1,5 +1,5 @@
 ## Codebook for the Getting and Cleaning Data Project
-This code book describes the variables used in the (tidydata.txt) file.
+This code book describes the variables used in the [tidydata.txt](tidydata.txt) file.
 
 ## ID Variables
 * ID: Subjects ID number
