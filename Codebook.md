@@ -1,4 +1,4 @@
-##Codebook for the Getting and Cleaning Data Project
+## Codebook for the Getting and Cleaning Data Project
 This code book describes the variables used in the (tidydata.txt) file.
 
 ## ID Variables
