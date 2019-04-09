@@ -29,13 +29,24 @@ colnames(data)<-c("subject","activity", as.character(features[,2]))
 head(data)
 
 
-#gives the mean per subject for each activity
+#"melts" the data to make it tidy and gives the mean per subject for each activity
 data$activity <- factor(data$activity, levels = activityLabels[,1], labels = as.character(activityLabels[,2]))
 data$subject <- as.factor(data$subject)
 meltdata<-melt(data, id = c("subject","activity"))
 head(meltdata)
 datamean<-dcast(meltdata,subject+activity~variable,mean)
 
+#cleaning up the names and making them more understandable
+names(datamean)<-gsub("-"," ",names(datamean))
+names(datamean)<-gsub("^t","time ",names(datamean))
+names(datamean)<-gsub("^f","freq ",names(datamean))
+names(datamean)<-gsub("[()]","",names(datamean))
+names(datamean)<-gsub("Acc"," Accel",names(datamean))
+names(datamean)
+
 # write final tidy data
 write.table(datamean, file = "C:/Users/1257256940.MIL/Desktop/Coursera/Tidy/tidydata.txt", row.names = FALSE, col.names = TRUE)
+
+
+
 
