@@ -14,38 +14,38 @@ This code book describes the variables used in the `tidydata.txt` file
 * `LAYING`
 
 ## Variables
-* `tBodyAcc-std()-X`
-* `tBodyAcc-std()-Y`
-* `BodyAcc-std()-Z`
-* `tGravityAcc-std()-X`
-* `tGravityAcc-std()-Y`
-* `tGravityAcc-std()-Z`
-* `tBodyAccJerk-std()-X`
-* `tBodyAccJerk-std()-Y`
-* `tBodyAccJerk-std()-Z`
-* `tBodyGyro-std()-X`
-* `tBodyGyro-std()-Y`
-* `tBodyGyro-std()-Z`
-* `tBodyGyroJerk-std()-X`
-* `tBodyGyroJerk-std()-Y`
-* `tBodyGyroJerk-std()-Z`
-* `tBodyAccMag-std()`
-* `tGravityAccMag-std()`
-* `tBodyAccJerkMag-std()`
-* `tBodyGyroMag-std()`
-* `tBodyGyroJerkMag-std()`
-* `fBodyAcc-std()-X`
-* `fBodyAcc-std()-Y`
-* `fBodyAcc-std()-Z`
-* `fBodyAccJerk-std()-X`
-* `fBodyAccJerk-std()-Y`
-* `fBodyAccJerk-std()-Z`
-* `fBodyGyro-std()-X`
-* `fBodyGyro-std()-Y`
-* `fBodyGyro-std()-Z`
-* `fBodyAccMag-std()`
-* `fBodyBodyAccJerkMag-std()`
-* `fBodyBodyGyroMag-std()`
-* `fBodyBodyGyroJerkMag-std()`
+* `time Body Accel std X`      
+* `time Body Accel std Y`
+* `time Body Accel std Z`
+* `time Gravity Accel std X` 
+* `time Gravity Accel std Y`  
+* `time Gravity Accel std Z` 
+* `time Body AccelJerk std X`     
+* `time Body AccelJerk std Y` 
+* `time Body AccelJerk std Z` 
+* `time BodyGyro std X`           
+* `time BodyGyro std Y`      
+* `time BodyGyro std Z`       
+* `time BodyGyroJerk std X`       
+* `time BodyGyroJerk std Y`    
+* `time BodyGyroJerk std Z`    
+* `time Body AccelMag std`        
+* `time Gravity AccelMag std`  
+* `time Body AccelJerkMag std` 
+* `time BodyGyroMag std`          
+* `time BodyGyroJerkMag std`   
+* `freq Body Accel std X`      
+* `freq Body Accel std Y`        
+* `freq Body Accel std Z`    
+* `freq Body AccelJerk std X`    
+* `freq Body AccelJerk std Y`     
+* `freq Body AccelJerk std Z`  
+* `freq BodyGyro std X`       
+* `freq BodyGyro std Y`          
+* `freq BodyGyro std Z`         
+* `freq Body AccelMag std`       
+* `freq BodyBody AccelJerkMag std`
+* `freq BodyBodyGyroMag std`    
+* `freq BodyBodyGyroJerkMag std` 
 
 
